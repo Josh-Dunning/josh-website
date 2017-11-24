@@ -1,20 +1,22 @@
 {
-   "name": "josh-website",
-   "version": "1.0.0",
-   "description": "Personal Website\r ================",
-   "main": "index.js",
-   "scripts": {
-      "compile": "webpack",
-      "test": "echo \"Error: no test specified\" && exit 1"
-   },
-   "keywords": [],
-   "author": "",
-   "license": "ISC",
-   "dependencies": {
-      "babel-core": "^6.26.0",
-      "babel-loader": "^7.1.2",
-      "babel-preset-latest": "^6.24.1",
-      "babel-preset-react": "^6.24.1",
-      "webpack": "^3.8.1"
-   }
+  "name": "josh-website",
+  "version": "1.0.0",
+  "description": "Personal Website\r ================",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack",
+ "start": "node server.js",   "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-middleware": "^1.12.1"
+  }
 }
